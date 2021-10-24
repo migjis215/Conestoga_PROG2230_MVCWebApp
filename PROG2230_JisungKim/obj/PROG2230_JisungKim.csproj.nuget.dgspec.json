@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim.csproj": {}
+    "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\Conestoga_PROG2230_MVCWebApp\\PROG2230_JisungKim\\PROG2230_JisungKim.csproj": {}
   },
   "projects": {
-    "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim.csproj": {
+    "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\Conestoga_PROG2230_MVCWebApp\\PROG2230_JisungKim\\PROG2230_JisungKim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim.csproj",
+        "projectUniqueName": "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\Conestoga_PROG2230_MVCWebApp\\PROG2230_JisungKim\\PROG2230_JisungKim.csproj",
         "projectName": "PROG2230_JisungKim",
-        "projectPath": "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim.csproj",
+        "projectPath": "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\Conestoga_PROG2230_MVCWebApp\\PROG2230_JisungKim\\PROG2230_JisungKim.csproj",
         "packagesPath": "C:\\Users\\jisung\\.nuget\\packages\\",
-        "outputPath": "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim\\obj\\",
+        "outputPath": "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\Conestoga_PROG2230_MVCWebApp\\PROG2230_JisungKim\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jisung\\AppData\\Roaming\\NuGet\\NuGet.Config",

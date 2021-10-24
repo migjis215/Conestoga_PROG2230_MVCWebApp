@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Y0prhbGENPbpe06yYOBsj8t4oNiiP2cAwXXZFHWdu7zJ/EMVcUKb5Ax9qW9L/Og+TyTR61hmyWcMQ5z1RdOnw==",
+  "dgSpecHash": "uQuvrg/2NXd2Rxcvm4fBUTgFntP+0r3j72jGKUDAGUFD+U9N/L1ppkMQ4GRZe6A1DeuWCS1jB0loc77jWUcwqw==",
   "success": true,
-  "projectFilePath": "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim\\PROG2230_JisungKim.csproj",
+  "projectFilePath": "C:\\PROG2230\\Assignment\\(A2)PROG2230_JisungKim\\PROG2230_JisungKim\\Conestoga_PROG2230_MVCWebApp\\PROG2230_JisungKim\\PROG2230_JisungKim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jisung\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jisung\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
