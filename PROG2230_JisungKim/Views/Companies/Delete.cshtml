@@ -1,0 +1,38 @@
+﻿@model PROG2230_JisungKim.Models.Company
+
+@{
+    ViewData["Title"] = "Delete Company";
+}
+
+<h1>Delete Company</h1>
+
+<div>
+    <hr />
+    <h3>Confirm Deletion:</h3>
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TickerSymbol)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TickerSymbol)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="CompanyId" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Index"><input type="button" value="Cancel" class="btn btn-primary" /></a>
+    </form>
+</div>

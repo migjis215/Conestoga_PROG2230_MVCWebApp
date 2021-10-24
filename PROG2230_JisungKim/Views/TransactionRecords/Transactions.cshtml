@@ -1,0 +1,56 @@
+﻿@model PROG2230_JisungKim.Models.TransactionRecord
+
+@{
+    ViewData["Title"] = "Transactions";
+}
+
+<h2>@Html.DisplayFor(model => model.Company.Name)</h2>
+<h2>@Html.DisplayFor(model => model.Company.TickerSymbol)</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SharePrice)
+            </th>
+            <th>
+                Company
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TransactionType.Name)
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.SharePrice)
+            </td>
+            <td>
+                <a asp-controller="Companies" asp-action="Edit" asp-route-id="@Model.CompanyId">
+                    @Html.DisplayFor(model => model.Company.Name)
+                </a>
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.TransactionType.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@Model.TransactionRecordId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@Model.TransactionRecordId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@Model.TransactionRecordId">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div>
+    <a asp-controller="Companies" asp-action="Index">Back to List</a>
+</div>

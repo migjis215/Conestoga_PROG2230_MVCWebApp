@@ -1,0 +1,19 @@
+﻿@model PROG2230_JisungKim.Models.TransactionRecord
+
+@{
+    ViewData["Title"] = "Delete Transaction";
+}
+
+<h1>Delete Transaction</h1>
+
+<div>
+    <hr />
+    <h3>Confirm Deletion:</h3>
+    <h4>@Html.DisplayFor(model => model.Quantity) shares of @Html.DisplayFor(model => model.Company.Name) (@Html.DisplayFor(model => model.Company.TickerSymbol)) - share price: @Html.DisplayFor(model => model.SharePrice)</h4>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="TransactionRecordId" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="Transactions" asp-route-id="@Model.CompanyId"><input type="button" value="Cancel" class="btn btn-primary" /></a>
+    </form>
+</div>

@@ -1,0 +1,44 @@
+﻿@model PROG2230_JisungKim.Models.TransactionRecord
+
+@{
+    ViewData["Title"] = "Add Transaction";
+}
+
+<h1>Add Transaction</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Add">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Company.Name" class="control-label"></label>
+                <select asp-for="CompanyId" class="form-control" asp-items="ViewBag.Company">
+                    <option value="">Select a company name</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="SharePrice" class="control-label"></label>
+                <input asp-for="SharePrice" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="TransactionType.Name" class="control-label"></label>
+                <select asp-for="TransactionTypeId" class="form-control" asp-items="ViewBag.TransactionType">
+                    <option value="">Select a transaction type</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add" class="btn btn-primary" />
+                <a asp-action="Index"><input type="button" value="Cancel" class="btn btn-primary" /></a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
